@@ -2,6 +2,18 @@
 <html>
 
 <head>
+<link rel="icon" href="images/logo def." type="image/x-icon">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R824LSS6MH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R824LSS6MH');
+</script>
 
   <meta name="title" content="Elia Sempere">
 <meta name="description" content="En este sitio encontrarás todos los proyectos que he ido realizando. Hay fanzines, ilustraciones, cortometrajes y carteles. ">
@@ -44,9 +56,10 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="contact.html">
-            <img src="images/logo.png" alt="" /><span>
-              ELIA SEMPERE
+            <img src="images/logo def.png" alt="" style="width:100px;height:auto;" /><span>
+          ELIA SEMPERE
             </span>
+          
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,9 +72,7 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="fruit.html">NO LA QUIERO</a>
-                </li>
+               
                 <li class="nav-item">
                   <a class="nav-link" href="service.html"> Portfolio </a>
                 </li>
@@ -201,12 +212,14 @@
           </div>
         </div>
         <div class="custom_carousel-control">
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
-          </a>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="background-color: #D8BFD8; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+  <span class="sr-only" style="color: white;">Atrás</span>
+</a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" 
+   style="background-color: #000000; border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center;">
+   <span class="sr-only">Siguiente</span>
+</a>
+
         </div>
       </div>
     </section>
@@ -217,7 +230,7 @@
   <!-- service section -->
 
   <section class="client_section layout_padding">
-    <div class="container">
+    <div class="container" style="margin-top: 40px;">
       <h2 class="custom_heading">SOBRE MÍ</h2>
       <p class="custom_heading-text">
        
@@ -228,14 +241,26 @@
             <div class="carousel-item active">
               <div class="client_container layout_padding2">
                 <div class="client_img-box">
-                  <img src="images/perfil.jpg" alt="" />
-                </div>
+                 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+     <img src="images/perfil3.jpg" alt="" style="max-width: 305px;">
+    <img src="images/perfil.jpg" alt="" style="max-width: 300px;">
+    <img src="images/Elia foto 2.jpg" alt="" style="max-width: 305px;">
+</div>
+
                 <div class="client_detail">
                   <h3>
-                    Elia
+                   <div style="margin-top:20px;"></div>
+                    Elia Sempere Vicente
                   </h3>
                   <p class="custom_heading-text">
-                   ¡Holap! En esta página web podrás encontrar información de todas las cosas que hago. Desde fanzines a cortometrajes :). Actualmente estoy estudiando Comunicación Audiovisual y Periodismo en la UMH. Echa un vistazo a mis trabajos, quizás alguno te guste jeje <br />
+                   ¡Holap! En esta página web podrás encontrar información de todas las cosas que hago. Desde fanzines hasta cortometrajes. Actualmente estoy en 4º de Doble Grado en Comunicación Audiovisual y Periodismo en la Universidad Miguel Hernández de Elche. 
+
+                    Además, tengo una banda de música pop-punk llamada La 126. 
+
+               </div>
+                <div class="client_detail">
+
+                   Echa un vistazo a mis trabajos, ¡quizás alguno te gusta!<br />
                    
                   </p>
                 </div>
@@ -245,11 +270,11 @@
           <div class="custom_carousel-control">
             <a class="carousel-control-prev" href="#carouselExampleControls-2" role="button" data-slide="prev">
               <span class="" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+              <span class="sr-only">Atrás</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls-2" role="button" data-slide="next">
               <span class="" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+              <span class="sr-only">Siguiente</span>
             </a>
           </div>
 
@@ -259,46 +284,7 @@
   </section>
 
   <!-- end client section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <h2 class="font-weight-bold">
-        CONTÁCTAME
-      </h2>
-      <div class="row">
-        <div class="col-md-8 mr-auto">
-          <form action="">
-            <div class="contact_form-container">
-              <div>
-                <div>
-                  <input type="text" placeholder="Nombre">
-                </div>
-                <div>
-                  <input type="text" placeholder="Número de teléfono">
-                </div>
-                <div>
-                  <input type="email" placeholder="Email">
-                </div>
-
-                <div class="mt-5">
-                  <input type="text" placeholder="Mensaje">
-                </div>
-                <div class="mt-5">
-                  <button type="submit">
-                    Enviar
-                  </button>
-                </div>
-              </div>
-
-            </div>
-
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
+ 
 
 
   <!-- map section -->
@@ -309,52 +295,12 @@
 
   <!-- end map section -->
 
-        <div class="col-md-3">
-          <div class="social_container">
-            <h5>
-              Sígueme
-            </h5>
-            <div class="social-box">
-              <a href="">
-                <img src="images/fb.png" alt="">
-              </a>
-
-              <a href="">
-                <img src="images/twitter.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/linkedin.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="subscribe_container">
-            <h5>
-              Suscríbete ahora
-            </h5>
-            <div class="form_container">
-              <form action="">
-                <input type="email">
-                <button type="submit">
-                  Subscríbete
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
+        
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      Elia Sempere Vicente &copy; 
+      </a>
     </p>
   </section>
   <!-- footer section -->
